@@ -1,0 +1,112 @@
+.mb-tour.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000000e0;
+  z-index: 1;
+}
+
+.mb-tour.current-step {
+  position: relative;
+  z-index: 2;
+}
+
+.mb-tour-step.arrow-ballon {
+  position: relative;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  width: 13px;
+  height: 14px;
+  left: 30%;
+  bottom: 34px;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  border-radius: 18%;
+}
+
+.mb-tour-step.ballon {
+  position: relative;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  left: 0px;
+  bottom: 40px;
+  padding: 24px 24px 24px 24px;
+  border-radius: 8px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 440px;
+}
+
+.mb-tour-step.ballon .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  color: #1d2327;
+  padding: 0;
+  margin: 0 0 16px 0;
+  text-align: start;
+}
+
+.mb-tour-step.ballon .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 118%;
+  letter-spacing: 0.18px;
+  color: #000000;
+  text-align: start;
+}
+
+.mb-tour-step.ballon .link {
+  color: #7e7eec;
+}
+
+.mb-tour-step.ballon .link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mb-tour-step.ballon .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 118%;
+  letter-spacing: 0.18px;
+  color: #000000;
+  text-align: start;
+}
+
+.mb-tour-step.ballon .btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #F48120;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.mb-tour-step.ballon .btn:hover {
+  cursor: pointer;
+}
+
+.mb-tour-step.ballon .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=tour.css.map */
